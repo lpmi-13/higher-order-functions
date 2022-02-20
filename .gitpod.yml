@@ -1,10 +1,11 @@
 tasks:
   - name: start the tests
     init: npm install
-    command: npm run test:watch
+    command: npm run test:gitpod
+    openIn: bottom
     openMode: tab-after
 
   - name: open the code
     command: gp open index.js
-    openMode: tab-before
+    openIn: main
 
