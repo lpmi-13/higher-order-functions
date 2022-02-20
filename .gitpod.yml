@@ -1,4 +1,10 @@
 tasks:
   - name: start the tests
-    command: npm i && npm run test:watch
+    init: npm install
+    command: npm run test:watch
     openMode: tab-after
+
+  - name: open the code
+    command: gp open index.js
+    openMode: tab-before
+
