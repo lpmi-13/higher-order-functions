@@ -1,0 +1,17 @@
+{
+  "name": "higher-order-functions",
+  "version": "1.0.0",
+  "description": "Higher order functions can be a bit confusing when you first start working with them, but I found that just trying to create a few of them myself helped immensely in my understanding of what they are and how they work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test:watch": "node --experimental-vm-modules node_modules/.bin/jest --watch"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "lpmi-13",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
