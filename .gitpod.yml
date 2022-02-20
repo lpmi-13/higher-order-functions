@@ -1,4 +1,4 @@
 tasks:
   - name: start the tests
-    command: npm run test:watch
+    command: npm i && npm run test:watch
     openMode: tab-after
