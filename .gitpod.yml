@@ -2,8 +2,8 @@ tasks:
   - name: start the tests
     init: npm install
     command: npm run test:gitpod
-    openIn: bottom
-    openMode: tab-after
+    #openIn: bottom
+    openMode: tab-before
 
   - name: open the code
     command: gp open index.js
