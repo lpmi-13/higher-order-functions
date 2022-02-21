@@ -10,6 +10,9 @@ There are 10 higher order functions that are incomplete. Try to complete them an
 
 You can either run the tests manually when you want to check, via `npm test`, or run them in watch mode to run each time you save via `npm run test:watch`.
 
+
+> if you have no idea where to start, take a look at the tests in `index.spec.js`
+
 ## Running in Gitpod
 
 Just click the button below!
@@ -19,6 +22,6 @@ Just click the button below!
 
 ## Running locally
 
-Open your text editor or IDE (like VS Code), and try to complete the functions. Run the tests as explained above to check your work.
+Open your text editor or IDE (like VS Code), and try to complete the functions. Run the tests as explained above (either in the IDE terminal or in a separate terminal window) to check your work.
 
 > if you need a hint, just check the git log to see what the functions were originally.
