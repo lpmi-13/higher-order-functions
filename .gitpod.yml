@@ -6,6 +6,6 @@ tasks:
     openMode: tab-before
 
   - name: open the code
-    command: gp open index.js
+    command: gp open index.js && exit
     openIn: main
 
