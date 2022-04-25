@@ -13,7 +13,7 @@ import {
 } from './index';
 
 describe('applyNTimes', () => {
-  test('apples the given function to the original number the same number of times as the second functions argument', () => {
+  test('applies the given function to the original number the same number of times as the second functions argument', () => {
     const originalNumber = 5;
     const functionToApply = num => num * 2;
     const numberOfTimesToApply = 3;
